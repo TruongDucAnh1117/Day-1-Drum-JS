@@ -1,0 +1,68 @@
+body, html{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+}
+.bg {
+  /* The image used */
+  background-image: url("/images/2104.q702.003.S.m005.c10.cinema\ hall.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+kbd{
+  display: block;
+  font-size: 2.5rem;
+}
+
+div.keys{
+    /*Chỉnh content ra giữa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    
+
+  
+}
+div.key{
+  /*Tạo các block nằm cùng 1 hàng*/
+  display: inline-block;
+  margin: 1rem; 
+  border: 3px solid black;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  width: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px black;
+  transition: all 0.09s;
+}
+
+.sound{
+  color: yellow;
+  font-size: 1.1rem;
+}
+
+.playing{
+  transform: scale(1.1);
+  border: #ffc600;
+  box-shadow: 0px 0px 40px #ffc600 ;
+  background-color: rgb(126, 114, 114);
+
+}
+
+.copy-right{
+  margin-top: 30%;
+  right: 80%;
+  color: aliceblue;
+  font-size: 1rem;
+}
